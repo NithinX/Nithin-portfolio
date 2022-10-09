@@ -3,21 +3,7 @@ import JobList from "./JobList";
 import "../styles/Experience.css";
 import FadeInSection from "./FadeInSection";
 
-class Experience extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      expanded: true,
-      activeKey: "1"
-    };
-    this.handleSelect = this.handleSelect.bind(this);
-  }
-  handleSelect(eventKey) {
-    this.setState({
-      activeKey: eventKey
-    });
-  }
-  render() {
+function Experience() {
     return (
       <div id="experience">
         <FadeInSection>
@@ -29,6 +15,5 @@ class Experience extends React.Component {
       </div>
     );
   }
-}
 
 export default Experience;

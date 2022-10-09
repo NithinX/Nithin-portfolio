@@ -5,14 +5,12 @@ import FadeInSection from "./FadeInSection";
 
 const tech_stack = [
   "Javascript ES6+",
-  "Python",
   "React.js",
   "Java",
   "Node.js",
   "HTML & CSS",
+  "Python",
   "Selenium",
-  "MongoDB",
-  "Express.js",
   "Robot Framework"
 ];
 
@@ -27,14 +25,10 @@ function About() {
         </div>
         <div className="about-content">
           <div className="about-description">
-          <p>I am currently a fourth year <b>Computer Science</b> major at
-            <a href=""> University of Toronto</a>.
-            After graduation, I will be joining{" "}
-            <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
-            <b>Software Development Engineer</b> while undertaking a part-time
-            <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-            <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
-         </p>
+            <p>I am currently working as a <b>Software Engineer</b> at <a href="">Wipro</a> while pursuing
+              a <b>Master's in computer science</b> from <a href="">Bits Pilani University. </a>
+              I did my bachelors in Computer Applications from <a href="">Mahatma Gandhi University.</a>
+          </p>
             <p>Here are some technologies I have been working with:</p>
             <ul className="tech-stack">
               {tech_stack.map(function (tech_item, i) {
@@ -45,11 +39,11 @@ function About() {
                 );
               })}
             </ul>
-            <p> Outside of work, I'm interested in following the developments of science. 
-              I also play a lot of video games. And make TikToks.</p>
+            <p> Outside of work, I'm interested in following the developments of technologies.
+               And traveling to new cities.</p>
           </div>
           <div className="about-image">
-            <img src={"/images/me2.jpg"} />
+            <img src={"/images/me.jpg"} />
           </div>
         </div>
       </FadeInSection>

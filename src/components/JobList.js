@@ -82,54 +82,31 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
+    Wipro: {
       jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+      duration: "JUL 2019 - PRESENT",
       desc: [
-        "Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.",
+        "Collaborate with experienced cross-disciplinary Wiproites to conceive, design, and bring innovative products and services to market.",
         "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-        "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use."
+        "Trained in Java FullStack development, cleared Java Mettl assessments and build an Online Ticket Booking platform."
       ]
     },
-    Wattpad: {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2020 - APR 2021",
+    "Hewlett Packard": {
+      jobTitle: "Test Automation Engineer @",
+      duration: "NOV 2020 - SEP 2021 | wipro client",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+        "Build an automation framework from scratch using Python, Selenium and Robot Framework. It acts as the gateway forthe promotion of dev and pie stack.",
+        "Worked on end-to-end testing in Agile projects to identify defects manually log, track, and triage bugs to determine root cause and establish prioritization",
+        "Led QA team, designed and managed testcases in Jira, architecture code base, updated clients with testing status"
       ]
     },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
+    "Kohl's": {
+      jobTitle: "Automation Quality Engineeer @",
+      duration: "OCT 2019 - MAR 2020 | wipro client",
       desc: [
-        "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
-      ]
-    },
-    // Centivizer: {
-    //   jobTitle: "Research Developer @",
-    //   duration: "SEPT 2019 - APR 2020",
-    //   desc: [
-    //     "Researched and developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-    //     "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
-    //   ]
-    // },
-    // TDSB: {
-    //   jobTitle: "Software Engineer @",
-    //   duration: "SEPT 2019 - DEC 2020",
-    //   desc: [
-    //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
-    //   ]
-    // },
-    "Orange Gate": {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2019 - AUG 2019",
-      desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sen- sors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+        "Worked on the CSC and CNC-Checkout team, in Java and Selenium to automate and verify the Regression test suites.",
+        "Automated 100+ test cases using Selenium with Cucumber framework and have sound knowledge in Junit, TestNG, Maven, BitBucket and Jenkins for Continuous Integration.",
+        "Design and build comprehensive test plans, test scripts, and use cases to support testing objectives"
       ]
     }
   };
