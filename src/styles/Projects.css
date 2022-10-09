@@ -102,7 +102,7 @@
 .carousel-caption {
   font-family: "NTR", sans-serif;
   max-width: 500px;
-  right: unset !important;
+  right: 12% !important;
   left: 25% !important;
   user-select: none;
 }

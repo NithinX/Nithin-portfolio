@@ -24,23 +24,23 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "Netflix clone": {
+        title: "Netflix Clone",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+          "A web app for watching all the latest Netflix movie trailers and details.",
+        techStack: "REACT.JS, TMDB-API",
+        link: "https://github.com/NithinX/Netflix-clone",
+        open: "https://netflix-clone336.herokuapp.com/",
+        image: "/images/netflix.png"
       },
-      Truth: {
-        title: "truth",
+      Tindog: {
+        title: "tindog",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+          "Meet new and intresting dogs nearby.",
+        techStack: "HTML,CSS,JAVASCRIPT",
+        link: "https://github.com/NithinX/tindog",
+        open: "https://tindog336.netlify.app",
+        image: "/images/tindog.png"
       },
       "Tall Tales": {
         title: "tall tales",
@@ -49,7 +49,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+        image: "/images/talltales.png"
       },
       Portfolio: {
         title: "portfolio.js",
@@ -58,7 +58,7 @@ class Projects extends React.Component {
         techStack: "NODE.JS (EXPRESS.JS)",
         link: "https://github.com/gazijarin/Portfolio.js",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+        image: "/images/portfolio.png"
       }
     };
     const projects = {
