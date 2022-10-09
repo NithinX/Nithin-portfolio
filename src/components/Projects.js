@@ -25,9 +25,9 @@ class Projects extends React.Component {
   render() {
     const spotlightProjects = {
       "Netflix clone": {
-        title: "Netflix Clone",
+        title: "Netflix clone",
         desc:
-          "A web app for watching all the latest Netflix movie trailers and details.",
+          "A web app for watching all the latest Netflix movie trailers.",
         techStack: "REACT.JS, TMDB-API",
         link: "https://github.com/NithinX/Netflix-clone",
         open: "https://netflix-clone336.herokuapp.com/",
@@ -36,38 +36,30 @@ class Projects extends React.Component {
       Tindog: {
         title: "tindog",
         desc:
-          "Meet new and intresting dogs nearby.",
+          "A web app inspired from tinder. ''why humans have all the fun !'' ",
         techStack: "HTML,CSS,JAVASCRIPT",
         link: "https://github.com/NithinX/tindog",
         open: "https://tindog336.netlify.app",
         image: "/images/tindog.png"
       },
-      "Tall Tales": {
-        title: "tall tales",
+      "Simon game": {
+        title: "Simon Game",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/images/talltales.png"
+          "A single player web game. How long a sequence can you remember?",
+        techStack: "HTML, CSS, JAVASCRIPT, JQUERY",
+        link: "https://github.com/NithinX/SimonGame",
+        open: "https://nithinx.github.io/SimonGame/",
+        image: "/images/simon.png"
       },
-      Portfolio: {
-        title: "portfolio.js",
-        desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/images/portfolio.png"
-      }
     };
+
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Newsletter Signup": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "Email newsletters are a fantastic way to engage and inform your audience.",
+        techStack: "Node.js (Express.js), HTML / CSS, Mailchimp API",
+        link: "https://github.com/NithinX/newsletter-signup",
+        open: "https://newsletter336.herokuapp.com/"
       },
       "Adam A.I.": {
         desc:
