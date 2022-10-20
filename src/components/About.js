@@ -26,7 +26,7 @@ function About() {
         <div className="about-content">
           <div className="about-description">
             <p>I am currently working as a <b>Software Engineer</b> at <a href="">Wipro</a> while pursuing
-              a <b>Master's in computer science</b> from <a href="">Bits Pilani University. </a>
+              a <b>M. Tech in Software Engineering</b> from <a href="">Bits Pilani University. </a>
               I did my bachelors in Computer Applications from <a href="">Mahatma Gandhi University.</a>
           </p>
             <p>Here are some technologies I have been working with:</p>
