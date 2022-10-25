@@ -95,9 +95,9 @@ const JobList = () => {
       jobTitle: "Test Automation Engineer @",
       duration: "NOV 2020 - SEP 2021 | wipro client",
       desc: [
-        "Build an automation framework from scratch using Python, Selenium and Robot Framework. It acts as the gateway forthe promotion of dev and pie stack.",
-        "Worked on end-to-end testing in Agile projects to identify defects manually log, track, and triage bugs to determine root cause and establish prioritization",
-        "Led QA team, designed and managed testcases in Jira, architecture code base, updated clients with testing status"
+        "Build an automation framework from scratch using Python, Selenium and Robot Framework. It acts as the gateway for the promotion of dev and pie stack.",
+        "Worked on end-to-end testing in Agile projects to identify defects manually log, track, and triage bugs to determine root cause and establish prioritization.",
+        "Led QA team, designed and managed testcases in Jira, architecture code base, updated clients with testing status."
       ]
     },
     "Kohl's": {
@@ -106,7 +106,7 @@ const JobList = () => {
       desc: [
         "Worked on the CSC and CNC-Checkout team, in Java and Selenium to automate and verify the Regression test suites.",
         "Automated 100+ test cases using Selenium with Cucumber framework and have sound knowledge in Junit, TestNG, Maven, BitBucket and Jenkins for Continuous Integration.",
-        "Design and build comprehensive test plans, test scripts, and use cases to support testing objectives"
+        "Design and build comprehensive test plans, test scripts, and use cases to support testing objectives."
       ]
     }
   };
