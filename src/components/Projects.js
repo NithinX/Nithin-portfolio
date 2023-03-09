@@ -30,7 +30,7 @@ class Projects extends React.Component {
           "A web app for watching all the latest Netflix movie trailers.",
         techStack: "REACT.JS, TMDB-API",
         link: "https://github.com/NithinX/Netflix-clone",
-        open: "https://netflix-clone336.herokuapp.com/",
+        open: "https://netflix-clone-virid-alpha.vercel.app/",
         image: "/images/netflix.png"
       },
       Tindog: {
